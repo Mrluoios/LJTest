@@ -1,11 +1,12 @@
  
 Pod::Spec.new do |s|
   s.name             = 'LJTest'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of LJTest'
+  s.version          = 'main'
+  s.summary          = '欢迎使用我的LJTest'
 
 
   s.description      = <<-DESC
+			这是我的一个测试的本地库文件
                        DESC
 
   s.homepage         = 'https://github.com/Mrluoios/LJTest'
