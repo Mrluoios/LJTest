@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Mrluoios' => 'luojian794589880@163.com' }
-  s.source           = { :git => 'https://github.com/Mrluoios/LJTest.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Mrluoios/LJTest.git', :tag => s.version }
   s.ios.deployment_target = '11.0'
 
   s.source_files = 'LJTest/Classes/**/*.h'
