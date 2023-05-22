@@ -3,6 +3,16 @@ Pod::Spec.new do |s|
   s.name             = 'LJTest'
   s.version          = 'main'
   s.summary          = '欢迎使用我的LJTest'
+
+
+  s.description      = <<-DESC
+                              ZLPhotoBrowser 是一款纯swift实现的框架
+                              * 支持图片、视频、GIF、LivePhoto选择
+                              * 支持图片、视频编辑
+                              * 支持自定义相机拍照及录像
+                              更多自定义功能请查看 ZLPhotoConfiguration 定义
+                              DESC
+
   s.homepage         = 'https://github.com/Mrluoios/LJTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
