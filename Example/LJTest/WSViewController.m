@@ -7,9 +7,9 @@
 //
 
 #import "WSViewController.h"
-
+#import <LJTest/PCDRecordView.h>
 @interface WSViewController ()
-
+    
 @end
 
 @implementation WSViewController
@@ -18,6 +18,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+ [PCDRecordView takeMyTest];
 }
 
 - (void)didReceiveMemoryWarning
